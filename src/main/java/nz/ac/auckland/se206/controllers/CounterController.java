@@ -22,6 +22,30 @@ public class CounterController {
     @FXML
     private Label numberLabel;
 
+    @FXML
+    public void switchToMusic(){
+
+    }
+
+    @FXML
+    public void increment(){
+        counter++;   
+        numberLabel.setText(String.valueOf(counter));
+    }
+
+    @FXML
+    public void decrement(){
+        counter--;   
+        numberLabel.setText(String.valueOf(counter));
+    }
+
+    @FXML
+    public void reset(){
+        counter = 0;  
+        numberLabel.setText(String.valueOf(counter));
+    }
+
+
     
     
 }
