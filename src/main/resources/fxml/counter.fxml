@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-
 <StackPane prefHeight="504.0" prefWidth="576.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nz.ac.auckland.se206.controllers.CounterController">
    <children>
       <Pane prefHeight="200.0" prefWidth="200.0">
