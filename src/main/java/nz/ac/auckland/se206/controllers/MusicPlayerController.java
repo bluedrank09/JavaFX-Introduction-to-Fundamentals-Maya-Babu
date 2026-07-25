@@ -36,9 +36,6 @@ public class MusicPlayerController {
 
     }
 
-    @FXML private void switchToCounter(){
-
-    }
     @FXML private void secondSong(){
 
     }
